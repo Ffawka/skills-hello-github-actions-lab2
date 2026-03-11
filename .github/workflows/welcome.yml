@@ -1,0 +1,6 @@
+name: Оставьте приветственный комментарий
+on:
+ pull_request:
+ types: [открыт]
+permissions:
+ pull-requests: write
